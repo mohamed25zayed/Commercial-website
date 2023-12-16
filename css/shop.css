@@ -1,0 +1,65 @@
+.page2{
+    background-image: url(/images/banner/b1.jpg);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+    flex-direction: column;
+    background-repeat: none;
+
+    }
+    .page2 h4{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 60px;
+    }
+    .page2 p{
+        color: #ccc3c3;
+    }
+    .navbar li a.active_home::after{
+        content: " ";
+        width: 30%;
+        height: 2px;
+        background-color: #088780;
+        margin: 20px;
+        position: absolute;
+        top: 3px;
+        left: -4px;
+    }
+    .move{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    #next{
+    background-color: #088178;
+    color: #fff;
+    border: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    }
+    .bexplore {
+        font-size: 15px;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+        background-color: #fff;
+        color: #000;
+        font-weight: 600;
+        border: 1px solid #ccc3c3;
+        margin-left: 3px;
+    }
